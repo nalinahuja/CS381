@@ -6,7 +6,11 @@ public class MinMax {
     return divide(arr, 0, arr.length - 1);
   }
 
-  //Runtime Of O(n)
+  /**
+   * Determines the minumum and maximum of an unordered array with either distinct or undistinct elements.
+   * @return a tuple (min, max)
+   * @runtime O(n)
+   */
   public static int[] divide(int arr[], int l, int r) {
     if ((r - l) <= 1) {
       int lmin = arr[l];
