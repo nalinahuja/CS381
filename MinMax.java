@@ -1,8 +1,12 @@
+//Developed by Nalin Ahuja, nalinahuja22
+
 public class MinMax {
+  //Wrapper Function
   public static int[] getMinMax(int arr[]) {
     return divide(arr, 0, arr.length - 1);
   }
 
+  //Runtime of O(log(n))
   public static int[] divide(int arr[], int l, int r) {
     if ((r - l) <= 1) {
       int lmin = arr[l];
