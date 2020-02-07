@@ -1,10 +1,14 @@
-import java.util.*;
+//Developed by Nalin Ahuja, nalinahuja22
 
 public class Median {
   public static final int NOT_SET = -1;
 
-  //Runtime Of O(log(n))
-  public static int myMedian(int arr1[], int arr2[]) {
+  /**
+   * Determines the median element between two sorted arrays.
+   * @return the median
+   * @runtime O(log(n))
+   */
+  public static int median(int arr1[], int arr2[]) {
     int i = (arr1.length / 2) - 1;
     int j = (arr2.length - 1) - i;
     int med = NOT_SET;
