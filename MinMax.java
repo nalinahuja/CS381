@@ -6,7 +6,7 @@ public class MinMax {
     return divide(arr, 0, arr.length - 1);
   }
 
-  //Runtime of O(log(n))
+  //Runtime of O(n)
   public static int[] divide(int arr[], int l, int r) {
     if ((r - l) <= 1) {
       int lmin = arr[l];
