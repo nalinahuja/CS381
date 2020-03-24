@@ -1,3 +1,5 @@
+//Developed by Nalin Ahuja, nalinahuja22
+
 import java.util.*;
 
 public class MaxIndependentWeightedSet {
