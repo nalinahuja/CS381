@@ -6,7 +6,6 @@ public class MaxSquare {
    * @return the max square side length
    * @runtime O(n^2)
    */
-   
   public static int findMaxDim(int arr[][]) {
     int dp[][] = new int[arr.length][arr.length];
 
