@@ -4,7 +4,7 @@ public class MinMax {
   /**
    * Wrapper Function For Divide Method
    * @return a tuple (min, max)
-   * @runtime O(n)
+   * @runtime O(n + 1)
    */
   public static int[] getMinMax(int arr[]) {
     return divide(arr, 0, arr.length - 1);
