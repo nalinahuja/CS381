@@ -9,7 +9,7 @@ public class MaxIndependentWeightedSet {
   /**
    * Wrapper Function For computeWeights Method
    * @return an int
-   * @runtime O(n)
+   * @runtime O(n + 1)
    */
   public static int computeMaximumWeightSet(Node root, int n) {
     inc_weights = new int[n];
