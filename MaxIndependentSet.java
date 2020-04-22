@@ -6,7 +6,7 @@ public class MaxIndependentSet {
 
  /**
    * Determines the Largest Non-Adjacent Subset Of Nodes Of A Rooted U-nary tree
-   * @return a void
+   * @return void
    * @runtime O(n)
    */
 public static boolean determineNAS(Node root, List<Node> nas) {
