@@ -1,8 +1,8 @@
-//Developed by Nalin Ahuja, nalinahuja22
+// Developed by Nalin Ahuja, nalinahuja22
 
 public class MaxSquare {
   /**
-   * Function determines the largest block of 1s arr
+   * Function determines the largest block of 1s in a 2D array
    * @return the max square side length
    * @runtime O(n^2)
    */
@@ -30,6 +30,6 @@ public class MaxSquare {
       }
     }
 
-    return max;
+    return (max);
   }
 }
