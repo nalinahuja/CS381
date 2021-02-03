@@ -7,7 +7,7 @@ public class MinMax {
    * @runtime O(n + 1)
    */
   public static int[] getMinMax(int arr[]) {
-    return divide(arr, 0, arr.length - 1);
+    return (divide(arr, 0, arr.length - 1));
   }
 
   /**
