@@ -1,4 +1,4 @@
-//Developed by Nalin Ahuja, nalinahuja22
+// Developed by Nalin Ahuja, nalinahuja22
 
 public class AssignJobs {
   public static int NOT_SET = -1;
