@@ -1,18 +1,18 @@
-//Developed by Nalin Ahuja, nalinahuja22
+// Developed by Nalin Ahuja, nalinahuja22
 
 import java.util.*;
 
 public class MaxIndependentSet {
 
  /**
-   * Determines the Largest Non-Adjacent Subset Of Nodes Of A Rooted U-nary tree
+   * Determines The Largest Non-Adjacent Subset Of Nodes Of A Rooted U-nary tree
    * @return void
    * @runtime O(n)
    */
 public static boolean determineNAS(Node root, List<Node> nas) {
     if (root.decendants.empty()) {
       nas.add(root);
-      return false;
+      return (false);
     } else {
       boolean currSelect = true;
 
